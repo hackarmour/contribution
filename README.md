@@ -16,7 +16,7 @@ Please follow the following prefix rule for all commits:
 -   `refactor` – code formatting & refactoring such as white-space, missing semi-colons and so on.
 -   `docs` – updates to documentation such as a the README or other markdown files
 -   `test` – including new or correcting previous tests
--   `perf` – performance improvements
+-   `optimize` – optimization and performance improvements
 -   `ci` – continuous integration related
 -   `build` – changes that affect the build system or external dependencies
 -   `revert` – reverts a previous commit
