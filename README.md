@@ -17,7 +17,7 @@ You can always look at our repositories' issue tracker to find bugs you can pote
   - You can join our malware team to create awesome reversing and forensic challenges with the community.
   - Make some high performant tools with us.
 
- Hackarmour is still in it's initial stage and most of the work has not even begun yet. Your contribution will really mean a lot to us. Here are some guidelines contributors may keep in mind:
+ Hackarmour is still in it's initial stage and most of the development is still at the starting phase. Your contribution will really mean a lot to us. Here are some guidelines contributors may keep in mind:
 
 -   Always before contributing, use the Issue Tracker to check about what you can improve in the project. You can also use it to file bugs and self assign it if you can fix them!
 -   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts.
