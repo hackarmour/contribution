@@ -3,6 +3,7 @@
 These are the guidelines to be followed if you want to contribute to our projects. There might be special ones for each, so please refer to the readme of the particular project.
 
 -   Always before contributing, use the Issue Tracker to check about what you can improve in the project. You can also use it to file bugs and self assign it if you can fix them!
+-   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts.
 -   Lint your project for potential bugs using the recommended linter before pushing the code. Guidelines could be found in the respective readme.
 -   Make sure the commit message is in present tense and helps to understand what feature is implemented and which section has been edited.
 
@@ -99,4 +100,4 @@ after it, we will just click on the *create pull request*.
 
 ## Code of Conduct
 
-We have attaches the Code of Conduct for most of the public projects and repositories. Make sure you read them before doing any contribution. We have also attached some templates related to issues and pull requests so make sure you are following them too. 😃
+We have attaches the Code of Conduct for most of the public projects and repositories. Make sure you read them before doing any contribution. We have also attached some templates related to issues and pull requests so make sure you are following them too.
