@@ -1,6 +1,23 @@
-# Contribution Guidelines
+# Contribution
+We accept contributions from everyone regardless of any differences. Help us in our mission to make the decentralized infosec search engine for everyone, and make our community the best. You can always ask queries in the `#contributors-general` on our [discord server](https://discord.gg/ePAVq2frFB)
 
-These are the guidelines to be followed if you want to contribute to our projects. There might be special ones for each, so please refer to the readme of the particular project.
+## Finding something to work on
+
+You can always look at our repositories' issue tracker to find bugs you can potentially fix. If you want to work on a new feature or have some ideas about our products, you can let us know about it through our discord server. Here are few projects you can contribute to:
+
+- If you know HTML/CSS/JS
+  - The front-end of hackarmour search engine [React js] will be open to everyone soon to take a look at and also, file issues and PRs.
+  - Some components of the backend [nodejs] will also be open to all soon
+  - You can make web based CTF challenges with the community, which might be featured in our upcoming CTFs as well!
+- If you know python
+  - You can work on [monoinit](https://github.com/hackarmour/monoinit), a build system to manage our monorepos.
+  - You can also work on revtheshell, and other tools we may release under hackarmour.
+- If you know C/C++/Rust/Go
+  - You can also work in our core team internally to help us build the core of our search engine.
+  - You can join our malware team to create awesome reversing and forensic challenges with the community.
+  - Make some high performant tools with us.
+
+ Hackarmour is still in it's initial stage and most of the work has not even begun yet. Your contribution will really mean a lot to us. Here are some guidelines contributors may keep in mind:
 
 -   Always before contributing, use the Issue Tracker to check about what you can improve in the project. You can also use it to file bugs and self assign it if you can fix them!
 -   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts.
