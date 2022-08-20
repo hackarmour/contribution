@@ -7,7 +7,7 @@ You can always look at our repositories' issue tracker to find bugs you can pote
 
 - If you know HTML/CSS/JS
   - The front-end of hackarmour search engine [React js] will be open to everyone soon to take a look at and also, file issues and PRs.
-  - Some components of the backend [nodejs] will also be open to all soon
+  - Some major components of the backend [nodejs] will also be open to all soon
   - You can make web based CTF challenges with the community, which might be featured in our upcoming CTFs as well!
 - If you know python
   - You can work on [monoinit](https://github.com/hackarmour/monoinit), a build system to manage our monorepos.
@@ -20,18 +20,20 @@ You can always look at our repositories' issue tracker to find bugs you can pote
  Hackarmour is still in it's initial stage and most of the development is still at the starting phase. Your contribution will really mean a lot to us. Here are some guidelines contributors may keep in mind:
 
 -   Always before contributing, use the Issue Tracker to check about what you can improve in the project. You can also use it to file bugs and self assign it if you can fix them!
--   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts.
+-   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts. This must be listed on the readme.
 -   Lint your project for potential bugs using the recommended linter before pushing the code. Guidelines could be found in the respective readme.
 -   Make sure the commit message is in present tense and helps to understand what feature is implemented and which section has been edited.
 
 ## Steps to follow
 - Fork the repo from github.
-- Clone the forked repo from your account to your local machine using `git clone <url>`
-- Swith the branch u wana work on (probably the `dev` branch) using `git checkout <branch-name>`
+- Clone the forked repo from your account to your local machine using `git clone <url>`.
+- Swith the branch you may want to work on (probably the `dev` branch) using `git checkout <branch-name>`.
+- If the feature/bug is distinctly specific, you can make a new branch using `git branch <feat-name> && git checkout <feat-name>`.
 - Run `git add .` and `git commit -m "<your message>"` to commit your changes. See [committing](#committing) for recommended commit messages.
-- Push the changes to your account using `git push`
+- If you have made a new feature/fixing branch, push it to your forked remote using `git push origin <feat-name>`.
+- If you have been directly updating the `dev` branch, push the changes to your forked remote using `git push`.
 - Go to your fork on github, and make a pull request. You can request reviews from the staff as well.
-- Refer [here](https://opensource.com/article/19/7/create-pull-request-github) for detailed docs.
+- Refer [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) for detailed docs [Also includes syncing your fork from the upstream].
 
 ### Committing
 
@@ -49,6 +51,6 @@ Please follow the following prefix rule for all commits:
 -   `revert` – reverts a previous commit
 -   `<feat>` mentioning the specific part of the code such as a subdirectory changed
 
-## Code of Conduct
+### Code of Conduct
 
 We have attaches the Code of Conduct for most of the public projects and repositories. Make sure you read them before doing any contribution. We have also attached some templates related to issues and pull requests so make sure you are following them too.
