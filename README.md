@@ -20,20 +20,22 @@ You can always look at our repositories' issue tracker to find bugs you can pote
  Hackarmour is still in it's initial stage and most of the development is still at the starting phase. Your contribution will really mean a lot to us. Here are some guidelines contributors may keep in mind:
 
 -   Always before contributing, use the Issue Tracker to check about what you can improve in the project. You can also use it to file bugs and self assign it if you can fix them!
--   Also, check out if the project has a `dev` or unstable branch. Don't directly work on the main branch as this can lead to catastrophic conflicts. This must be listed on the readme.
+-   Follow the repo's branching system. The branching system we use is discussed below.
 -   Lint your project for potential bugs using the recommended linter before pushing the code. Guidelines could be found in the respective readme.
 -   Make sure the commit message is in present tense and helps to understand what feature is implemented and which section has been edited.
 
 ## Steps to follow
 - Fork the repo from github.
 - Clone the forked repo from your account to your local machine using `git clone <url>`.
-- Swith the branch you may want to work on (probably the `dev` branch) using `git checkout <branch-name>`.
-- If the feature/bug is distinctly specific, you can make a new branch using `git branch <feat-name> && git checkout <feat-name>`.
+- Swith the branch you may want to work on, using `git checkout <branch-name>` or create your own feature branch using `git branch <new-branch>`.
 - Run `git add .` and `git commit -m "<your message>"` to commit your changes. See [committing](#committing) for recommended commit messages.
-- If you have made a new feature/fixing branch, push it to your forked remote using `git push origin <feat-name>`.
-- If you have been directly updating the `dev` branch, push the changes to your forked remote using `git push`.
+- Push your code to your forked repo using `git push origin <new-branch>`.
 - Go to your fork on github, and make a pull request. You can request reviews from the staff as well.
 - Refer [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) for detailed docs [Also includes syncing your fork from the upstream].
+
+## Branching System
+
+We encourage the use of [GitHub Flow](https://githubflow.github.io/) branching system to manage our branches. It states the main branch should always be stable and deployable, and feature branch needs to be created to add new stuff, and all experiments shall be done there.
 
 ### Committing
 
