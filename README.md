@@ -1,5 +1,5 @@
 # Contribution
-We accept contributions from everyone regardless of any differences. Help us in our mission to make the decentralized infosec search engine for everyone, and make our community the best. You can always ask queries in the `#contributors-general` on our [discord server](https://discord.gg/ePAVq2frFB)
+We accept contributions from everyone regardless of any differences. Help us in our mission to make the decentralized infosec search engine for everyone, and make our community the best. You can always ask queries in the `#contributors-general` on our [discord server](https://discord.gg/ePAVq2frFB). If you are new to programming, you can also go through this list of [programming resources](https://github.com/hackarmour/programming-resouces).
 
 ## Finding something to work on
 
